@@ -1,3 +1,3 @@
 def square_array(array)
-  # your code here
+ array.each_with_object([]) { |num,array| array << num ** 2 }
 end
